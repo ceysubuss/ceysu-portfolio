@@ -1,0 +1,53 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e2e2e2;
+}
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+/* List style */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+/* Links style */
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 8px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+#my-pic{
+  display: block;
+  padding: 10px;
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+#ceysu{
+  text-decoration: wavy;
+  font-size: larger;
+  font-weight: bold;
+}
+.skill-info  {
+  list-style: none;
+}
+.list{
+  list-style: none;
+}
+.languages{
+  list-style: none;
+}
